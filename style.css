@@ -11,7 +11,7 @@
     --cor-cartao: rgb(255, 153, 20);
     --cor-cabecalho: rgb(0, 0, 0);
     --cor-texto01: rgb(255, 255, 255);
-    --cor-texto02: #ff0000;
+    --cor-texto02: #5a2a85;
     --cor-destaque: rgb(199, 199, 199);
     --cor-fundo: rgb(255, 204, 0);
 }
@@ -55,7 +55,36 @@ header h1{
     color: var(--cor-destaque);
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer a{
     text-decoration: none;
 }
     
+.principal-numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.numero-input{
+    font-size: 1em;
+    padding: 0.5em;
+}
+.numero-botao{
+    margin-left: 1em;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 15px;
+    border-color: var(--cor --cor-cabecalho);
+    
+}
+.numero-botao:hover{
+    background-color: var(--cor-texto02);
+    transition: 0.2s
+   
+}
